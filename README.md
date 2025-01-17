@@ -20,40 +20,9 @@ Esses problemas afetam a autonomia dos idosos e a capacidade de cuidadores e fam
     - **developer/**: Manuais para desenvolvedores.
     - **user/**: Manuais para usuários.
   - **requirements/**: Requisitos do projeto.
-    - **design/**: Documentos de design.
+    - **diagrams/**: Diagramas do projeto.
     - **functional/**: Requisitos funcionais.
     - **non-functional/**: Requisitos não funcionais.
-
-- **scripts/**: Scripts do projeto.
-  - **build/**: Scripts de build.
-  - **migration/**: Scripts de migração.
-  - **seed/**: Scripts de seed.
-
-- **src/**: Código-fonte do projeto.
-  - **application/**: Lógica de aplicação.
-    - **use-cases/**: Casos de uso.
-    - **dto/**: Data Transfer Objects.
-    - **interfaces/**: Interfaces que os casos de uso dependem.
-  - **domain/**: Lógica de domínio.
-    - **entities/**: Entidades do domínio.
-    - **enums/**: Enums do domínio.
-    - **models/**: Modelos do domínio.
-    - **value-objects/**: Objetos de valor do domínio.
-  - **infra/**: Infraestrutura.
-    - **configs/**: Configurações.
-    - **databases/**: Bancos de dados.
-    - **repositories/**: Repositórios.
-    - **services/**: Serviços de infraestrutura.
-  - **presentation/**: Camada de apresentação.
-    - **controllers/**: Controladores.
-    - **middlewares/**: Middlewares.
-    - **ui/**: Interface do usuário.
-
-- **tests/**: Testes do projeto.
-  - **e2e/**: Testes end-to-end.
-  - **integration/**: Testes de integração.
-  - **unit/**: Testes unitários.
-
 
 ## Padrão de Nomenclatura
 - **Artefatos de Requisitos**:
@@ -62,34 +31,9 @@ Esses problemas afetam a autonomia dos idosos e a capacidade de cuidadores e fam
     - `REQ_001_Login.md`
     - `REQ_002_Registro.md`
 
-## Commits
-
-Os commits devem seguir o padrão [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/):
-
-- **feat**: Para novas funcionalidades.
-  - Exemplo: `feat: adicionar funcionalidade de monitoramento de sinais vitais`
-- **fix**: Para correção de bugs.
-  - Exemplo: `fix: corrigir erro de autenticação na API`
-- **chore**: Para tarefas de manutenção ou organização.
-  - Exemplo: `chore: reorganizar estrutura de pastas`
-- **docs**: Para atualizações na documentação.
-  - Exemplo: `docs: adicionar definição de requisitos no README`
-- **test**: Para adição ou modificação de testes.
-  - Exemplo: `test: adicionar testes para a funcionalidade de login`
-
-## Branches
-
-Use o padrão: `<tipo>/<descrição-curta>`
-
-- **Tipos**:
-  - **feature**: Para desenvolvimento de novas funcionalidades.
-  - **fix**: Para correção de bugs.
-  - **hotfix**: Para correções rápidas em produção.
-  - **release**: Para preparar uma versão para produção.
-
-- **Exemplos**:
-  - `feature/cadastro-usuario`
-  - `fix/corrigir-autenticacao`
-  - `hotfix/corrigir-bug-emergencial`
+- **Artefatos de BPMN**:
+  - Formato: `BPMN_<id>_<nome_do_fluxo>.md`
+  - Exemplos:
+    - `BPMN_001_AutenticacaoDeUsuario.md`
 
 ## Glossário
