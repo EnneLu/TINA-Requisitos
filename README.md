@@ -37,7 +37,7 @@ Esses problemas afetam a autonomia dos idosos e a capacidade de cuidadores e fam
     - `BPMN_001_AutenticacaoDeUsuario.md`
 
 ## Glossário
-- **Pessoa Idoso:** Usuário primário do sistema, com acesso total a todas as funcionalidades de gerenciamento pessoal.
+- **Pessoa Idosa:** Usuário primário do sistema, com acesso total a todas as funcionalidades de gerenciamento pessoal.
 - **Responsável:** Familiar que auxilia o idoso, com permissão para gerenciar eventos e rotinas.
 - **Cuidador:** Profissional de saúde com acesso limitado a informações diárias e alertas.
 - **Sinais Vitais:** Dados de monitoramento de saúde, como pressão arterial, frequência cardíaca e saturação de oxigênio.
