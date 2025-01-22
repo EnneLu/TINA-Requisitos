@@ -28,13 +28,18 @@ Esses problemas afetam a autonomia dos idosos e a capacidade de cuidadores e fam
 - **Artefatos de Requisitos**:
   - Formato: `REQ_<id>_<nome_do_requisito>.md`
   - Exemplos:
-    - `REQ_001_Login.md`
-    - `REQ_002_Registro.md`
+    - `REQ_01_Login.md`
+    - `REQ_02_Registro.md`
 
 - **Artefatos de BPMN**:
   - Formato: `BPMN_<id>_<nome_do_fluxo>.md`
   - Exemplos:
-    - `BPMN_001_AutenticacaoDeUsuario.md`
+    - `BPMN_01_AutenticacaoDeUsuario.md`
+
+- **Artefatos de Estado**:
+  - Formato: `ES_<id>_<nome_do_fluxo>.md`
+  - Exemplos:
+    - `ES_01_AutenticacaoDeUsuario.md`
 
 ## Glossário
 - **Pessoa Idosa:** Usuário primário do sistema, com acesso total a todas as funcionalidades de gerenciamento pessoal.
@@ -42,6 +47,7 @@ Esses problemas afetam a autonomia dos idosos e a capacidade de cuidadores e fam
 - **Cuidador:** Profissional de saúde com acesso limitado a informações diárias e alertas.
 - **Sinais Vitais:** Dados de monitoramento de saúde, como pressão arterial, frequência cardíaca e saturação de oxigênio.
 - **Evento:** Atividades agendadas como consultas médicas, exercícios e terapias.
-- **Rotina de Hábitos:** Conjunto de atividades diárias configuradas para promover saúde física e mental.
+- **Hábitos**: Conjunto de atividades diárias configuradas para promover saúde física e mental.
+- **Rotina Diária:**: Eventos, medicamento e hábitos planejados para o dia.
 - **Alerta:** Notificação automática gerada pelo sistema para lembrar o usuário de eventos ou situações de risco.
 - **Prescrição Médica:** Documento com a indicação de medicamentos e dosagens recomendadas pelo médico do idoso, anexado ao perfil do usuário para controle de saúde.

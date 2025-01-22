@@ -2,7 +2,7 @@
 title: Diagrama Caso de Uso
 ---
 
-# Diagrama BPMN: Diagrama Caso de Uso
+# Diagrama Caso de Uso
 
 ## 1. Descrição
 
