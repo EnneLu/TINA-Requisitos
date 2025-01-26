@@ -9,7 +9,7 @@
 - O usuário deve estar cadastrado e autenticado no sistema.
 
 **3. Fluxo Principal**  
-1. O usuário acessa a funcionalidade de rotina no sistema. 
+1. O usuário acessa a Área do idoso. 
 2. O sistema exibe as informações diárias, incluindo atividades, medicamentos e eventos.  
 3. O usuário seleciona filtros para visualizar informações específicas.  
 4. O sistema exibe os resultados conforme os filtros aplicados.  
