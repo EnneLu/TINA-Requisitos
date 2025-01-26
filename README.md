@@ -13,7 +13,7 @@ Esses problemas afetam a autonomia dos idosos e a capacidade de cuidadores e fam
 
 ## Estrutura de Pastas
 
-- **docs/**: Documentação do projeto.
+- **docs/requirements**: Documentação do projeto.
   - **diagrams/**: Diagramas de requisitos.
     - **Estado/**: Diagramas de estado.
     - **NFR/**: Diagramas NFR.
