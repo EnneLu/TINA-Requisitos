@@ -16,8 +16,8 @@
 5. O sistema envia notificações antecipadas conforme configurado.
 
 **4. Fluxo Alternativo**  
-4a. Caso não existam eventos cadastrados:  
-   1. O sistema exibe uma mensagem informando a ausência de eventos e sugere o cadastro de novos.
+3a. Caso não existam eventos cadastrados:  
+   3a.1. O sistema exibe uma mensagem informando a ausência de eventos e sugere o cadastro de novos.
 
 **5. Pós-condições**  
 - O usuário visualizou ou gerenciou sua agenda com sucesso.  
