@@ -6,7 +6,7 @@
 **PARA** Acompanhar minha saúde e receber alertas automáticos caso os valores estejam fora dos parâmetros normais.
 
 **2. Pré-condições**  
-- O usuário deve estar cadastrado e autenticado no sistema.
+- O usuário deve estar cadastrado e autenticado no sistema. 
 - O dispositivo de monitoramento deve estar devidamente configurado e conectado ao sistema.
 
 **3. Fluxo Principal**  
