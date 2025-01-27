@@ -1,4 +1,4 @@
-### Especificação de Caso de Uso: Gerenciar Dados
+### Especificação de Caso de Uso: Gerenciar Dados Pessoa Idosa
 
 **1. Descrição do Caso de Uso**  
 **COMO** Pessoa Idosa Independente/Responsável  

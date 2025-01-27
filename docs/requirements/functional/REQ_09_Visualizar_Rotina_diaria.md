@@ -1,4 +1,4 @@
-### Especificação de Caso de Uso: Visualizar Rotina
+### Especificação de Caso de Uso: Visualizar Rotina Diária
 
 **1. Descrição do Caso de Uso**  
 **COMO** Pessoa Idosa Independente/Responsável/Cuidador  
@@ -9,7 +9,7 @@
 - O usuário deve estar cadastrado e autenticado no sistema.
 
 **3. Fluxo Principal**  
-1. O usuário acessa a Área do idoso. 
+1. O usuário acessa a Área do idoso.
 2. O sistema exibe as informações diárias, incluindo atividades, medicamentos e eventos.  
 3. O usuário seleciona filtros para visualizar informações específicas.  
 4. O sistema exibe os resultados conforme os filtros aplicados.  
@@ -27,8 +27,8 @@
 **6. Regras de Negócio**  
 - **RN01** - O sistema deve permitir a filtragem por data, tipo de atividade e status (concluído/não concluído).  
 - **RN02** - Apenas usuários autorizados podem visualizar determinadas informações sensíveis.  
-- **RN03** - Os dados registrados devem estar organizados de forma cronológica. 
+- **RN03** - Os dados registrados devem estar organizados de forma cronológica.
 
 **7. Requisitos Não Funcionais**  
-- O sistema deve garantir a privacidade e segurança das informações do usuário, conforme a LGPD. 
+- O sistema deve garantir a privacidade e segurança das informações do usuário, conforme a LGPD.
 - A interface deve ser responsiva para diferentes dispositivos.

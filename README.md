@@ -15,28 +15,12 @@ Esses problemas afetam a autonomia dos idosos e a capacidade de cuidadores e fam
 
 - **docs/requirements**: Documentação do projeto.
   - **diagrams/**: Diagramas de requisitos.
+    - **BPMN/**: Diagrama BPMN.
     - **Estado/**: Diagramas de estado.
     - **NFR/**: Diagramas NFR.
     - **UC/**: Diagramas de casos de uso.
   - **functional/**: Requisitos funcionais.
   - **non_functional/**: Requisitos não funcionais.
-
-## Padrão de Nomenclatura
-- **Artefatos de Requisitos**:
-  - Formato: `REQ_<id>_<nome_do_requisito>.md`
-  - Exemplos:
-    - `REQ_01_Login.md`
-    - `REQ_02_Registro.md`
-
-- **Artefatos de BPMN**:
-  - Formato: `BPMN_<id>_<nome_do_fluxo>.md`
-  - Exemplos:
-    - `BPMN_01_AutenticacaoDeUsuario.md`
-
-- **Artefatos de Estado**:
-  - Formato: `ES_<id>_<nome_do_fluxo>.md`
-  - Exemplos:
-    - `ES_01_AutenticacaoDeUsuario.md`
 
 ## Glossário
 - **Pessoa Idosa:** Usuário primário do sistema, com acesso total a todas as funcionalidades de gerenciamento pessoal.
