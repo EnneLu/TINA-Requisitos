@@ -13,16 +13,13 @@ Esses problemas afetam a autonomia dos idosos e a capacidade de cuidadores e fam
 
 ## Estrutura de Pastas
 
-- **docs/**: Documentação do projeto.
-  - **architecture/**: Documentos de arquitetura.
-  - **guidelines/**: Diretrizes do projeto.
-  - **manuals/**: Manuais de uso.
-    - **developer/**: Manuais para desenvolvedores.
-    - **user/**: Manuais para usuários.
-  - **requirements/**: Requisitos do projeto.
-    - **diagrams/**: Diagramas do projeto.
-    - **functional/**: Requisitos funcionais.
-    - **non-functional/**: Requisitos não funcionais.
+- **docs/requirements**: Documentação do projeto.
+  - **diagrams/**: Diagramas de requisitos.
+    - **Estado/**: Diagramas de estado.
+    - **NFR/**: Diagramas NFR.
+    - **UC/**: Diagramas de casos de uso.
+  - **functional/**: Requisitos funcionais.
+  - **non_functional/**: Requisitos não funcionais.
 
 ## Padrão de Nomenclatura
 - **Artefatos de Requisitos**:
