@@ -1,4 +1,4 @@
-### Especificação de Caso de Uso: Cadastrar Usuário
+### Especificação de Caso de Uso: Cadastrar Usuário  
 
 **1. Descrição do Caso de Uso**  
 **COMO** Pessoa Idosa Independente/Responsável/Cuidador  
@@ -42,7 +42,7 @@
 
 **6. Regras de Negócio**  
 - **RN01** - O e-mail deve ser único no sistema.  
-- **RN02** -  A senha deve atender às políticas de segurança definidas pelo sistema, incluindo a combinação de letras, números e caracteres especiais, com um mínimo de 8 caracteres.
+- **RN02** - A senha deve atender às políticas de segurança definidas pelo sistema, incluindo a combinação de letras, números e caracteres especiais, com um mínimo de 8 caracteres.
 - **RN03** - A confirmação da senha deve ser idêntica à senha inserida no campo anterior.
 - **RN04** - O telefone deve ser validado conforme o formato padrão do país ou região do usuário.
 
@@ -50,3 +50,39 @@
 - O tempo de resposta para validar e confirmar o cadastro não deve exceder 3 segundos.
 - O sistema deve ser responsivo e acessível em diferentes dispositivos, incluindo smartphones e tablets.  
 - O sistema deve garantir a segurança e confidencialidade dos dados pessoais dos usuários, em conformidade com a LGPD.
+
+---
+
+### Definições de privacidade  
+
+**Identificação dos dados pessoais e sensíveis**  
+- Exibe algum dado pessoal? Quais?  
+  - Nome completo, data de nascimento, e-mail, telefone.  
+- Exibe algum dado pessoal sensível? Quais?  
+  - Nenhum dado sensível identificado neste caso de uso.  
+
+**Consentimento do usuário e a permissão de acesso**  
+- Tem consentimento?  
+  - Sim, o consentimento será obtido explicitamente através de uma caixa de seleção no formulário de cadastro.  
+- Forma de acesso?  
+  - Apenas usuários autorizados (de acordo com seu perfil) e conforme o princípio do acesso mínimo.   
+
+**Segurança dos dados dentro do processo de tratamento de dados**  
+- **Coleta**:  
+  - Como será feito?  
+    - Por meio do formulário web, utilizando conexão segura (HTTPS).  
+- **Armazenamento**:  
+  - Como será feito?  
+    - Os dados serão armazenados em um banco de dados criptografado e protegido por autenticação forte.  
+- **Processamento**:  
+  - Como será feito?  
+    - As validações e processamentos serão realizados em servidores seguros seguindo as normas de segurança.  
+- **Compartilhamento**:  
+  - **Interno**:  
+    - Os dados serão acessíveis apenas por equipes internas autorizadas (e.g., suporte técnico).  
+  - **Externo**:  
+    - Não haverá compartilhamento de dados com terceiros neste caso de uso.  
+  - **Internacional**:  
+    - Não haverá transferência internacional de dados.  
+- **Eliminação dos dados**:  
+  - Os dados podem ser eliminados a pedido do titular ou conforme prazo estabelecido pela legislação, utilizando métodos seguros de descarte.  
