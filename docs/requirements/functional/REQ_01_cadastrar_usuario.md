@@ -65,7 +65,7 @@
 - Tem consentimento?  
   - Sim, o consentimento será obtido explicitamente através de uma caixa de seleção no formulário de cadastro.  
 - Forma de acesso?  
-  - Apenas usuários autorizados (de acordo com seu perfil) e conforme o princípio do acesso mínimo.  
+  - Apenas usuários autorizados (de acordo com seu perfil) e conforme o princípio do acesso mínimo.   
 
 **Segurança dos dados dentro do processo de tratamento de dados**  
 - **Coleta**:  
