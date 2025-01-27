@@ -1,21 +1,21 @@
 ## 1. Identificação  
-**Código:** RNF01  
-**Nome:** Notificações Rápidas  
+**Código:** RNF02  
+**Nome:** Diagnóstico e Manutenção Automatizada  
 
 ## 2. Descrição  
-O sistema deve enviar lembretes, alertas de emergência ou notificações ao usuário em até **2 segundos** após a identificação de um evento relevante. Este requisito é essencial para garantir uma resposta ágil em situações críticas, como:  
-- Horários programados para medicação.  
-- Alertas relacionados a variações anormais de sinais vitais.  
+O sistema deve realizar diagnósticos automáticos periódicos para identificar falhas ou necessidades de manutenção, garantindo a continuidade do funcionamento. Quando detectadas inconsistências, como falhas na comunicação com dispositivos externos ou anomalias nos dados de sinais vitais, o sistema deve alertar os responsáveis pela gestão.  
 
 ## 3. Justificativa  
-Esse requisito visa assegurar que os usuários possam agir rapidamente em situações importantes, protegendo sua saúde e bem-estar, além de aumentar a confiabilidade do sistema.  
+Este requisito busca garantir a confiabilidade e disponibilidade contínua do sistema, prevenindo interrupções inesperadas e minimizando impactos causados por falhas técnicas. Com diagnósticos automatizados, a equipe de gestão pode agir proativamente para resolver problemas antes que afetem os usuários finais.  
 
 ## 4. Critérios de Aceitação  
-- **CA01**: Notificações devem ser entregues ao usuário em até 2 segundos após a identificação do evento no sistema.  
-- **CA02**: O sistema deve priorizar notificações críticas sobre notificações de rotina.  
-- **CA03**: Em caso de falha de envio, o sistema deve registrar o erro e realizar novas tentativas automáticas de notificação dentro do prazo estabelecido.  
+- **CA01**: O sistema deve realizar diagnósticos automáticos a cada **15 minutos**.  
+- **CA02**: O sistema deve alertar os responsáveis em até **5 minutos** após a identificação de falhas críticas.  
+- **CA03**: Todas as falhas identificadas devem ser registradas em um log centralizado para auditoria e análise posterior.  
+- **CA04**: O sistema deve diferenciar entre falhas críticas e não críticas, priorizando alertas baseados no impacto potencial.  
 
 ## 5. Observações Técnicas  
-- A arquitetura do sistema deve adotar técnicas de mensageria em tempo real (ex.: WebSocket, MQTT ou Firebase Cloud Messaging) para reduzir a latência na entrega das notificações.  
-- Deve-se implementar monitoramento contínuo do tempo de resposta para garantir o cumprimento do SLA de 2 segundos.  
-
+- Deve ser implementado um sistema de monitoramento contínuo utilizando ferramentas adequadas (ex.: Prometheus, ELK Stack ou soluções similares).  
+- A arquitetura deve suportar a integração com serviços de notificação (ex.: email, SMS ou aplicativos de mensagens) para alertar os responsáveis.  
+- Algoritmos de verificação de consistência de dados e disponibilidade de dispositivos devem ser otimizados para minimizar falsos positivos.  
+- Logs devem seguir o formato **JSON estruturado**, para facilitar análise e integração com sistemas de monitoramento.  
