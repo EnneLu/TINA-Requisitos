@@ -32,3 +32,7 @@ Esses problemas afetam a autonomia dos idosos e a capacidade de cuidadores e fam
 - **Rotina Diária:**: Eventos, medicamento e hábitos planejados para o dia.
 - **Alerta:** Notificação automática gerada pelo sistema para lembrar o usuário de eventos ou situações de risco.
 - **Prescrição Médica:** Documento com a indicação de medicamentos e dosagens recomendadas pelo médico do idoso, anexado ao perfil do usuário para controle de saúde.
+
+---
+
+Drive com arquivos no [link](https://drive.google.com/drive/folders/18oez2B7D6hR3ap13mk71uSoccNzV-T6D?usp=sharing) 
