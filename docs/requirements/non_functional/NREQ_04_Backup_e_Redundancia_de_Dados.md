@@ -13,7 +13,7 @@ Este requisito é fundamental para proteger os dados dos usuários contra perdas
 - **CA02**: As cópias de segurança devem ser armazenadas em locais seguros e redundantes (ex.: múltiplas zonas de disponibilidade na nuvem).  
 - **CA03**: O sistema deve ser capaz de restaurar dados a partir de backups em no máximo **15 minutos** após a detecção de falha.  
 - **CA04**: Funcionalidades críticas, como alertas e lembretes, devem continuar operando utilizando mecanismos de redundância em caso de falha de hardware ou conexão.  
-- **CA05**: O sistema deve enviar notificações automáticas para a equipe responsável em caso de falhas nos backups ou na redundância.  
+- **CA05**: O sistema deve enviar notificações automáticas para a equipe responsável em caso de falhas nos backups ou na redundância.
 
 ## 5. Observações Técnicas  
 - Deve-se implementar estratégias de **backup incremental**, **diferencial** e **completo**, conforme a necessidade e criticidade dos dados.  
