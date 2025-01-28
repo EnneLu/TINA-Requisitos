@@ -40,3 +40,6 @@
 **7. Requisitos Não Funcionais**  
 - O sistema deve garantir que o processo de associação de cuidadores seja concluído em no máximo 5 segundos.  
 - O sistema deve garantir a segurança das informações pessoais e de saúde da pessoa idosa, conforme políticas de privacidade e proteção de dados.
+
+**8. Diagramas**  
+- [BPMN](https://github.com/EnneLu/TINA-Requisitos/blob/main/docs/requirements/diagrams/BPMN/img/BPMN_02_GerenciarPessoaIdosa.png)

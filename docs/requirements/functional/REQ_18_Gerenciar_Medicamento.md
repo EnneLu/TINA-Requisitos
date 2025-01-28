@@ -46,3 +46,6 @@
 - O sistema deve exibir atualizações em até 3 segundos após qualquer ação.  
 - A funcionalidade deve ser responsiva e funcionar adequadamente em dispositivos móveis e desktop.  
 - As alterações realizadas devem ser registradas para fins de auditoria.  
+
+**8. Diagramas**  
+- [Estado](https://github.com/EnneLu/TINA-Requisitos/blob/main/docs/requirements/diagrams/Estado/img/ES_02_Remedio.png)

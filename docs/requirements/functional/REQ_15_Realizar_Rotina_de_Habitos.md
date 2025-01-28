@@ -44,3 +44,6 @@
 - O monitoramento de sinais vitais deve ocorrer em tempo real, com uma latência máxima de 5 segundos.  
 - O sistema deve ser responsivo e acessível em diferentes dispositivos.  
 - Alertas devem ser enviados imediatamente, com tempo máximo de 2 segundos após a detecção de valores fora do padrão.  
+
+**8. Diagramas**  
+- [Estado](https://github.com/EnneLu/TINA-Requisitos/blob/main/docs/requirements/diagrams/Estado/img/ES_01_RealizarRotinaHabito.png)

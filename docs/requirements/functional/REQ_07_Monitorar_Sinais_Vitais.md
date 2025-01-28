@@ -72,3 +72,7 @@
     - Não haverá transferência internacional de dados.  
 - **Eliminação dos dados**:  
   - Os dados serão eliminados a pedido do usuário ou após o período definido nas políticas do sistema, garantindo a exclusão segura e completa do banco de dados.  
+
+**8. Diagramas**  
+- [BPMN](https://github.com/EnneLu/TINA-Requisitos/blob/main/docs/requirements/diagrams/BPMN/img/BPMN_01_MonitorarSinais.png)
+

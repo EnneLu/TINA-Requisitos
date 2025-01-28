@@ -44,6 +44,9 @@
 - O sistema deve ser responsivo e acessível em diferentes dispositivos, incluindo smartphones e tablets.  
 - O sistema deve garantir a confidencialidade e integridade das informações dos eventos, conforme as leis de proteção de dados (LGPD).  
 
+**8. Diagramas**  
+- [Estado](https://github.com/EnneLu/TINA-Requisitos/blob/main/docs/requirements/diagrams/Estado/img/ES_03_Evento.png)
+
 ---
 
 ### Definições de privacidade  
